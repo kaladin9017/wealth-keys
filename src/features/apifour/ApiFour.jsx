@@ -1,4 +1,5 @@
 import React from "react";
+import userObj from '../test-api-obj';
 
 import {
 Grid,
@@ -8,7 +9,7 @@ List,
 } from "semantic-ui-react";
 
 const ApiFour = () => {
-
+  console.log(userObj)
 return (
  <Segment>
   stuff
