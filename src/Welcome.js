@@ -1,35 +1,35 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import './App.css';
-
+import {Link} from 'react-router';
 class Welcome extends Component {
-  render(){
+  render() {
     return(
-      <div>
+      <div className="welcome-container">
 
-        <div className="welcome-container">
-        
-          <div className="solutions-buttons">
-          
-            <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-              Button
-            </button>
+      <div className="reminder-selections">
+        <img src={require("./images/dashboard.png")} />
+      </div>
 
-            <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-              Button
-            </button>
-
-            <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-              Button
-            </button>
-
-            <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-              Button
-            </button>
-
-          </div>
-
-        </div>
-
+      <Link to='schedule'>
+        <button className="solutions-buttons mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Are you thinking about starting something new?
+        </button>
+      </Link>
+      <Link to='schedule'>
+        <button className="solutions-buttons mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Are you planning any adventures?
+        </button>
+</Link>
+<Link to='schedule'>
+        <button className="solutions-buttons mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+          Do you have any career change concerns?
+        </button>
+</Link>
+       <Link to='schedule'>
+          <button className="solutions-buttons mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            Do you have something else on your mind?
+          </button>
+      </Link>
       </div>
     )
   }

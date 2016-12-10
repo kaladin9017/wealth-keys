@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import {Link} from 'react-router';
 class Login extends Component {
   render() {
     return(
@@ -30,9 +30,10 @@ class Login extends Component {
         <div className="login-button-container">
           
           <div className="login-left-button">
-            <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+           <Link to="welcome"> <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
               LOGIN
             </button>
+            </Link>
           </div>
 
           <div className="login-right-button">

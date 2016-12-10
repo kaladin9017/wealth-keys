@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import {Link} from 'react-router';
 
 class Header extends Component {
   render() {
@@ -50,7 +51,7 @@ class Header extends Component {
               mdl-navigation
               "
           >
-
+          <Link to="welcome">
             <a 
               className="
                 mdl-navigation__link
@@ -60,10 +61,11 @@ class Header extends Component {
               "
             >
 
-              Link One
+             Home
 
             </a>
-
+            </Link>
+            <Link to="/">
             <a 
               className="
                 mdl-navigation__link
@@ -73,10 +75,10 @@ class Header extends Component {
               "
             >
 
-              Link Two
+              Sign Out
               
             </a>
-
+          </Link>
           </nav>
         </div>
       </div>

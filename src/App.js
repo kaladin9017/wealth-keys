@@ -4,6 +4,8 @@ import Footer from './Footer';
 import Login from './Login';
 import Welcome from './Welcome';
 import Confirmation from './Confirmation';
+import Schedule from './Schedule';
+
 
 import React, { Component } from 'react';
 
@@ -36,7 +38,6 @@ class App extends Component {
     return (
       <div className="site-container">
         <Header />
-        <Welcome />
         {this.props.children}
         
       </div>

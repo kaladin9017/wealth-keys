@@ -128,6 +128,7 @@ margin-right: auto;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
 }
 
 .solutions-buttons {
@@ -140,6 +141,57 @@ margin-right: auto;
 
 }
 
+.solutions-buttons {
+  height: 100px;
+  text-align: center; 
+  align-content: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+
+
+.schedule-container {
+  display: flex;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  flex-direction: column;
+}
+
+.month-box {
+  align-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.day-box {
+  align-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.hour-box {
+  align-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.minute-box {
+  align-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
 
 
 
@@ -167,4 +219,11 @@ margin-right: auto;
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.center-button {
+  display: flex;
+  margin-left: 775px;
+  margin-right: auto;
+  width: auto;
 }
