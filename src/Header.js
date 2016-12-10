@@ -6,6 +6,7 @@ class Header extends Component {
     return(
       <div
         className="
+          header-margin
           mdl-layout
           mdl-js-layout
           mdl-layout--fixed-header
@@ -43,16 +44,6 @@ class Header extends Component {
             mdl-layout__drawer
           "
         >
-
-          <span
-            className="
-              mdl-layout-title
-              "
-          >
-
-          Wealth Bridge
-
-          </span>
 
           <nav 
             className="

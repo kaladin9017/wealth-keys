@@ -1,6 +1,8 @@
 //IMPORTING COMPONENTS
-import Header from './Header'
-import Footer from './Footer'
+import Header from './Header';
+import Footer from './Footer';
+import Login from './Login';
+import Confirmation from './Confirmation';
 
 import React, { Component } from 'react';
 
@@ -31,11 +33,11 @@ class App extends Component {
     ];
 
     return (
-      <div>
-      {/*Rendering Header Component*/}
+      <div className="site-container">
         <Header />
+        <Login />
         {this.props.children}
-        <Footer />
+        
       </div>
 
      

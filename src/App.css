@@ -1,6 +1,117 @@
 /*Importing Google Font "Roboto" in Regular-400 and Medium-500*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 
+* {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.form-center {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.site-container {
+  height: 100vh;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  opacity: 87%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  align-content: center;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-button-container {
+  display: flex;
+  align-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+.login-left-button {
+display: flex;
+align-content: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.login-right-button {\
+ display: flex;
+ align-content: center;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.footer-sticky {
+  margin-bottom: !0px;
+  position: absolute;
+}
+
+
+/*CONFIRMATION PAGE*/
+
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  height: 90vh;
+}
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url(./images/banker-confirmation.png) center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.top-margin {
+  margin-top: 100px;
+}
+
+.center {
+  text-align: center;
+  align-content: center;
+}
+
+
+
+
+
+
 
 .App {
   text-align: center;
