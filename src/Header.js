@@ -31,7 +31,7 @@ class Header extends Component {
               "
             >
               
-              Wealth Bridge
+              Wealth Key
             
             </span>
 

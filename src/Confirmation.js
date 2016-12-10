@@ -19,17 +19,62 @@ class Confirmation extends Component {
       YOUR APPOINTMENT IS CONFIRMED
     </a>
   </div>
-  <div className="mdl-card__menu">
-    <button className="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-      <i className="material-icons">share</i>
-    </button>
-  </div>
+  
 </div>
 </div>
 
   <div className="header-text">
     How Would You Like To Be Reminded?
-  </div>        
+  </div>
+
+ <div className="reminder-selections">
+<ul className="demo-list-control mdl-list">
+  
+  <li className="mdl-list__item">
+    <span className="mdl-list__item-primary-content">
+      <i className="material-icons  mdl-list__item-avatar">call</i>
+      Call
+    </span>
+      <span className="mdl-list__item-secondary-action">
+        <label className="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-1">
+          <input type="checkbox" id="list-switch-1" className="mdl-switch__input" />
+        </label>
+    </span>
+  </li>
+
+  <li className="mdl-list__item">
+    <span className="mdl-list__item-primary-content">
+      <i className="material-icons  mdl-list__item-avatar">chat</i>
+      Text
+    </span>
+      <span className="mdl-list__item-secondary-action">
+        <label className="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-1">
+          <input type="checkbox" id="list-switch-1" className="mdl-switch__input" />
+        </label>
+    </span>
+  </li>
+
+  <li className="mdl-list__item">
+    <span className="mdl-list__item-primary-content">
+      <i className="material-icons  mdl-list__item-avatar">email</i>
+      Email
+    </span>
+      <span className="mdl-list__item-secondary-action">
+        <label className="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="list-switch-1">
+          <input type="checkbox" id="list-switch-1" className="mdl-switch__input" />
+        </label>
+    </span>
+  </li>
+
+</ul>
+</div>
+
+<button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+  SET YOUR REMINDER(S)
+</button>
+
+
+
       </div>
       )
   }

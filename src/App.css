@@ -107,7 +107,38 @@ margin-right: auto;
   align-content: center;
 }
 
+.demo-list-control {
+  width: 300px;
+}
 
+.demo-list-radio {
+  display: inline;
+}
+
+.reminder-selections {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*WELCOME*/
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.solutions-buttons {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.financial-information-container {
+
+}
 
 
 
