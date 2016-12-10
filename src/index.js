@@ -2,9 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Provider} from 'react-redux';
 
-
-import "semantic-ui-css/semantic.css";
-
 import configureStore from './store/configureStore';
 const store = configureStore();
 

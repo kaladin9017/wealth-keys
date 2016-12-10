@@ -1,8 +1,9 @@
+//IMPORTING COMPONENTS
+import Header from './Header'
+import Footer from './Footer'
+
 import React, { Component } from 'react';
-import {
-    Header,
-    Container,
-} from "semantic-ui-react";
+
 
 import TabBarContainer from './features/tabs/TabBarContainer';
 import ApiOne from './features/apione/ApiOne';
@@ -20,6 +21,7 @@ import './App.css';
 
 
 class App extends Component {
+
   render() {
     const tabs = [
       {name : 'apione', label : 'Api One Info', component : ApiOne},
@@ -29,14 +31,14 @@ class App extends Component {
     ];
 
     return (
-      <div className="App">
-        <div className="App-header">
-          <Header inverted as="h1">Project Fintech Api Test</Header>
-        </div>
-        <Container>
-          <TabBarContainer tabs={tabs} size='massive' />
-       </Container>
+      <div>
+      {/*Rendering Header Component*/}
+        <Header />
+        {this.props.children}
+        <Footer />
       </div>
+
+     
     );
   }
 }
